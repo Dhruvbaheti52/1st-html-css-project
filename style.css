@@ -1,0 +1,105 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+body {
+   font-family: "Inter", Arial, sans-serif;
+   background-color: #f9fafb;
+   color: #1e293b;
+   line-height: 1.7;
+}
+.container {
+    width: 90%;
+    max-width: 950px;
+    margin: 0 auto;
+    }
+header {
+    background-color: #0f172a;
+    color: #f8fafc;
+    padding: 25px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+header h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.subtitle {
+    color: #94a3b8;
+    font-size: 1rem;
+    margin-top: 4px;
+}
+header nav {
+    margin-top: 10px;
+}
+header nav a {
+    color: #cbd5e1;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 500;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+.intro {
+    background-color: #e2e8f0;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 35px 0;
+}
+.lesson {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(15, 23, 42, 0.05);
+}
+.lesson h2 {
+    font-size: 1.4rem;
+    color: #0f172a;
+    margin-bottom: 10px;
+}
+.lesson h3 {
+    font-size: 1.1rem;
+    color: #1e3a8a;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+.lesson p {
+    margin-bottom: 12px;
+}
+.lesson ul {
+    margin-left: 25px;
+    color: #475569;
+    margin-bottom: 12px;
+}
+.timeline-section {
+    border-left: 4px solid #2563eb;
+    padding-left: 10px;
+}
+.timeline {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.event {
+    background: #f1f5f9;
+    padding: 10px 14px;
+    border-radius: 8px;
+}
+.event span {
+    font-weight: 600;
+    color: #2563eb;
+}
+footer {
+    background-color: #0f172a;
+    color: #cbd5e1;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
